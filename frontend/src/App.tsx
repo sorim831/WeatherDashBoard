@@ -11,9 +11,6 @@ function App() {
       <Routes>
         {/* 메인페이지 */}
         <Route path="/" element={<MainPage />} />
-        <Route path="/heat" element={<HeatPage />} />
-        <Route path="/call" element={<CallPage />} />
-        <Route path="/subway" element={<SubwayPage />} />
       </Routes>
     </Router>
   );
