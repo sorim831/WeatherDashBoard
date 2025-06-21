@@ -121,10 +121,18 @@ export default function SunTimeChart() {
 
   return (
     <div className="bg-white p-4 rounded-xl shadow-md my-8">
-      <h2 className="text-xl font-semibold text-gray-800 mb-3">
+      <h3 className="text-l font-semibold text-gray-800 mb-3">
         월별 일출/일몰 시간
-      </h2>
+      </h3>
       <Line data={data} options={options} />
+
+      <p className="text-s text-gray-600 mt-4">
+        <strong>
+          ※ 전처리 기준: 낮 시간대 이상치는{" "}
+          <span className="font-medium text-red-500">제거</span>, 밤 시간대
+          이상치는 <span className="font-medium text-blue-500">0으로 대체</span>
+        </strong>
+      </p>
     </div>
   );
 }

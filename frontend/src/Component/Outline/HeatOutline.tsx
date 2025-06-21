@@ -4,7 +4,7 @@ export default function HeatOutline() {
   return (
     <section className="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition">
       <h2 className="text-2xl font-bold text-yellow-600 mb-4">
-        🔥 지역난방 열수요 예측
+        📝 분석 배경 및 목표
       </h2>
       <p className="text-gray-700 leading-relaxed">
         기후 변화로 인한 기상 변동성 증가에 따라, 지역난방 수요의 예측은 에너지
